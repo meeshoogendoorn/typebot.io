@@ -55,7 +55,7 @@ const UploadOverlay = (props: { progressPercent?: number }) => {
     props.progressPercent ?? 0
   )
 
-  let interval: NodeJS.Timer | undefined
+  let interval: NodeJS.Timeout | undefined
 
   createEffect(() => {
     if (props.progressPercent === 20) {

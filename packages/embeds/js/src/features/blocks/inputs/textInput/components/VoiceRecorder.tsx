@@ -30,7 +30,7 @@ export const VoiceRecorder = (props: Props) => {
   let microphone: MediaStreamAudioSourceNode | undefined
   let stream: MediaStream | undefined
   let bars: number[] = []
-  let recordTimeInterval: NodeJS.Timer | undefined
+  let recordTimeInterval: NodeJS.Timeout | undefined
   let lastFrameTime: DOMHighResTimeStamp | undefined = undefined
   let offset = 0
 

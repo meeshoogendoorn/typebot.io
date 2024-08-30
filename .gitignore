@@ -38,6 +38,7 @@ typebotsToFix.json
 snapshots
 
 .env
+.env.prod
 .typebot-build
 
 .tolgee
